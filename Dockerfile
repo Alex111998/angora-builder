@@ -31,9 +31,6 @@ RUN ./build/build.sh
 
 COPY ./benchmark /benchmark/
 COPY ./tool-script /tool-script/
-
-RUN chmod -R +x /benchmark/*.sh /benchmark/*.py
-RUN chmod -R +x /tool-script/*.sh /tool-script/*.py
 RUN find /benchmark/ -type f -name '*.sh' -exec chmod +x {} \; && \
     find /benchmark/ -type f -name '*.py' -exec chmod +x {} \; && \
     find /tool-script/ -type f -name '*.sh' -exec chmod +x {} \; && \
