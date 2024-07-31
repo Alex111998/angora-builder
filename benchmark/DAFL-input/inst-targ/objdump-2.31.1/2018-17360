@@ -1,0 +1,10 @@
+objdump.c:main
+objdump.c:display_file
+objdump.c:display_any_bfd
+objdump.c:display_object_bfd
+objdump.c:dump_bfd
+objdump.c:dump_bfd_private_header
+peicode.h:pe_print_private_bfd_data
+peigen.c:_bfd_pe_print_private_bfd_data_common
+peigen.c:pe_print_edata
+libbfd.c:bfd_getl32

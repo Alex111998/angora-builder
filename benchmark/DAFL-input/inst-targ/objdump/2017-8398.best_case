@@ -1,0 +1,2 @@
+dwarf.c:display_debug_lines_raw
+dwarf.c:process_extended_line_op
